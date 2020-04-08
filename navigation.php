@@ -1,14 +1,18 @@
 <?php
 
 return [
-    'Getting Started' => [
-        'url' => 'docs/getting-started',
+    'Fakes'           => [
+        'url'      => 'docs/fake',
         'children' => [
-            'Customizing Your Site' => 'docs/customizing-your-site',
-            'Navigation' => 'docs/navigation',
-            'Algolia DocSearch' => 'docs/algolia-docsearch',
-            'Custom 404 Page' => 'docs/custom-404-page',
+            'Address'     => 'docs/fake/address',
+            'Alphabet'    => 'docs/fake/alphabet',
+            'Ancient'     => 'docs/fake/ancient',
+            'Artist'      => 'docs/fake/artist',
+            'Coin'        => 'docs/fake/coin',
+            'Cosmere'     => 'docs/fake/cosmere',
+            'Currency'    => 'docs/fake/currency',
+            'Person'      => 'docs/fake/person',
+            'Slack Emoji' => 'docs/fake/slack_emoji',
         ],
     ],
-    'Jigsaw Docs' => 'https://jigsaw.tighten.co/docs/installation',
 ];
