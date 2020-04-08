@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'baseUrl' => 'https://my-jigsaw-docs.com',
+    'baseUrl' => 'https://phony.deligoz.me',
     'production' => true,
 
     // DocSearch credentials
