@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'baseUrl' => 'http://jigsaw-docs-staging.tighten.co',
+    'baseUrl' => 'https://phony-php-next.netlify.com',
     'production' => false,
 ];

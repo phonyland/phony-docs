@@ -1,51 +1,49 @@
 @extends('_layouts.master')
 
 @section('body')
-<section class="container max-w-6xl mx-auto px-6 py-10 md:py-12">
-    <div class="flex flex-col-reverse mb-10 lg:flex-row lg:mb-24">
-        <div class="mt-8">
-            <h1 id="intro-docs-template">{{ $page->siteName }}</h1>
+    <section class="container max-w-6xl mx-auto px-6 py-10 md:py-12">
+        <div class="flex flex-col-reverse lg:flex-row">
+            <div class="">
+                <div class="text-center lg:text-left xl:text-left">
+                    <h1 id="intro-phony">{{ $page->siteName }}</h1>
 
-            <h2 id="intro-powered-by-jigsaw" class="font-light mt-4">{{ $page->siteDescription }}</h2>
+                    <h2 id="intro-phony-description" class="font-light mt-4">{{ $page->siteDescription }}</h2>
 
-            <p class="text-lg">Phony is a PHP package that can generate a wide range of fake data.</p>
+                    <p class="text-2xl">Generate massive amount of realistic fake data in multiple locales.</p>
+                </div>
 
-            <div class="flex my-10">
-                <a href="/docs/fake" title="{{ $page->siteName }} fakes" class="bg-blue-500 hover:bg-blue-600 font-normal text-white hover:text-white rounded mr-4 py-2 px-6">Get Started</a>
+                <div class="flex my-16 justify-center sm:justify-center md:justify-center lg:justify-start xl:justify-start">
+                    <a href="/docs/fake"
+                       title="{{ $page->siteName }} fakes"
+                       class="bg-blue-500 hover:bg-blue-600 font-normal text-lg text-white hover:text-white rounded mr-4 py-2 px-6"
+                    >
+                        Get Started
+                    </a>
 
-                <a href="https://github.com/phony-php/phony" title="Phony PHP Source Code" class="bg-gray-400 hover:bg-gray-600 text-blue-900 font-normal hover:text-white rounded py-2 px-6">Source Code</a>
+                    <a href="https://github.com/phony-php/phony"
+                       title="Phony PHP Source Code"
+                       class="bg-gray-400 hover:bg-gray-600 text-blue-900 font-normal text-lg hover:text-white rounded py-2 px-6"
+                    >
+                        Source Code
+                    </a>
+                </div>
             </div>
+
+            <img
+                    src="/assets/img/logo-large.svg"
+                    alt="{{ $page->siteName }} large logo"
+                    class="mx-auto mb-2 sm:w-1/2 md:mb-0 md:w-1/3 lg:-mt-24 lg:m-0 lg:w-1/2 xl:-mt-24 xl:m-0 xl:w-1/2"
+            >
         </div>
 
-        <img src="/assets/img/logo-large.svg" alt="{{ $page->siteName }} large logo" class="mx-auto mb-6 lg:mb-0 ">
-    </div>
+        @include('_partials._homepage_example')
 
-    <hr class="block my-8 border lg:hidden">
-
-    <div class="md:flex -mx-2 -mx-4">
-        <div class="mb-8 mx-3 px-2 md:w-1/3">
-            <img src="/assets/img/icon-window.svg" class="h-12 w-12" alt="window icon">
-
-            <h3 id="intro-laravel" class="text-2xl text-blue-900 mb-0">Templating with <br>Laravel's Blade engine</h3>
-
-            <p>Blade is a powerful, simple, and beautiful templating language, and now you can use it for your static sites, not just your Laravel-powered apps.</p>
-        </div>
-
-        <div class="mb-8 mx-3 px-2 md:w-1/3">
-            <img src="/assets/img/icon-terminal.svg" class="h-12 w-12" alt="terminal icon">
-
-            <h3 id="intro-markdown" class="text-2xl text-blue-900 mb-0">Use Markdown for <br>content-driven pages</h3>
-
-            <p>Markdown is the web’s leading format for writing articles, blog posts, documentation, and more. Jigsaw makes it painless to work with Markdown content.</p>
-        </div>
-
-        <div class="mx-3 px-2 md:w-1/3">
-            <img src="/assets/img/icon-stack.svg" class="h-12 w-12" alt="stack icon">
-
-            <h3 id="intro-mix" class="text-2xl text-blue-900 mb-0">Compile your assets <br>using Laravel Mix </h3>
-
-            <p>Jigsaw comes pre-configured with Laravel Mix, a simple and powerful build tool. Use the latest frontend tech with just a few lines of code.</p>
-        </div>
-    </div>
-</section>
+    </section>
 @endsection
+
+@push('scripts')
+    <script>
+        hljs.initHighlightingOnLoad();
+        kadın
+    </script>
+@endpush
