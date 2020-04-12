@@ -9,6 +9,10 @@ module.exports = {
           'Fira Code',
           'monospace',
         ],
+        cursive: [
+          'Sacramento',
+          'cursive',
+        ],
       },
       lineHeight: {
         normal: '1.6',
@@ -37,7 +41,11 @@ module.exports = {
       '3xl': '1.75rem',
       '4xl': '2.125rem',
       '5xl': '2.625rem',
-      '6xl': '10rem',
+      '6xl': '3rem',
+      '7xl': '5rem',
+      '8xl': '8rem',
+      '9xl': '13rem',
+      '10xl': '15rem',
     },
   },
   variants: {
