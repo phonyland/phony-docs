@@ -43,6 +43,7 @@ module.exports = {
       '5xl': '2.625rem',
       '6xl': '3rem',
       '7xl': '5rem',
+      'emoji': '7rem',
       '8xl': '8rem',
       '9xl': '13rem',
       '10xl': '15rem',
