@@ -1,7 +1,7 @@
 @extends('_layouts.master')
 
 @section('body')
-    <section class="container max-w-screen-xl items-center mx-auto px-6 py-10">
+    <section class="container max-w-screen-xl items-center mx-auto px-6 pt-24 pb-10">
         <div class="text-center">
             <h1 id="intro-phony" class="font-cursive text-8xl text-gray-600">
                 <span class="opacity-75 text-emoji">{{ $page->emojiName }}</span>
