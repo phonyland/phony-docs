@@ -49,6 +49,10 @@ module.exports = {
       '10xl': '15rem',
     },
   },
+  purge: [
+    './source/**/*.md',
+    './source/**/*.blade.php',
+  ],
   variants: {
     borderRadius: ['responsive', 'focus'],
     borderWidth: ['responsive', 'active', 'focus'],
