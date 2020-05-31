@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'baseUrl' => 'https://phony.deligoz.me',
+    'baseUrl' => 'https://phony.land',
     'production' => true,
 
     // DocSearch credentials
