@@ -23,6 +23,7 @@
             </a>
 
             <a href="https://github.com/phonyland/phony"
+               target="_blank"
                title="Phony PHP Source Code"
                class="bg-gray-400 hover:bg-gray-600 text-blue-900 font-normal hover:text-white rounded text-sm md:text-base lg:text-lg xl:text-lg py-3 px-8"
             >
