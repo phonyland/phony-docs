@@ -5,6 +5,6 @@ return [
     'production' => true,
 
     // DocSearch credentials
-    'docsearchApiKey' => 'e857e119b8c0ca30fb05fee270b4fd39',
+    'docsearchApiKey' => 'fdf25c5e7da9d0b64a39ef5733cb6b88',
     'docsearchIndexName' => 'deligoz_phony',
 ];
