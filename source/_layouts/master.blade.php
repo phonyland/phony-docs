@@ -20,7 +20,7 @@
         <meta name="generator" content="tighten_jigsaw_doc">
     @endif
 
-    <title>{{ $page->siteName }}{{ $page->title ? ' | ' . $page->title : '' }}</title>
+    <title>{{ $page->siteName }}{{ $page->title ? ' | ' . $page->title : ' | ' . $page->siteDescription }}</title>
 
     <link rel="home" href="{{ $page->baseUrl }}">
 
@@ -109,8 +109,7 @@
 <footer class="bg-white text-center text-sm mt-12 py-4 text-gray-600" role="contentinfo">
     <ul class="flex flex-col md:flex-row justify-center list-none">
         <li class="md:mr-2">
-            &copy; <a href="{{ $page->baseUrl }}" class="tracking-wider" title="Phony PHP Website">Phony
-                PHP</a> {{ date('Y') }}.
+            &copy; <a href="{{ $page->baseUrl }}" class="tracking-wider" title="Phony PHP Website">phony.land</a> {{ date('Y') }}.
         </li>
 
         <li>
