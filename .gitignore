@@ -1,7 +1,13 @@
 /build_*/
 /node_modules/
 /vendor/
+.idea/
 .DS_Store
-/source/assets/build/
-.idea
+.cache
+
+/source/assets/build/*
+/source/service-worker.js
+/source/workbox-*.js
+/source/*.js.map
+
 composer.lock

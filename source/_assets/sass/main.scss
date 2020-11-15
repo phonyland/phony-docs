@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 
+// Code syntax highlighting,
+// powered by https://highlightjs.org resp. https://github.com/scrivo/highlight.php
+@import './../../../vendor/scrivo/highlight.php/styles/xcode.css';
+
 @import 'base';
 @import 'navigation';
 @import 'documentation';

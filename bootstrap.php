@@ -2,6 +2,7 @@
 
 use App\Listeners\GenerateSitemap;
 use TightenCo\Jigsaw\Jigsaw;
+use App\Listeners\HighlightCodeSyntax;
 
 /** @var $container \Illuminate\Container\Container */
 /** @var $events \TightenCo\Jigsaw\Events\EventBus */
@@ -18,4 +19,5 @@ use TightenCo\Jigsaw\Jigsaw;
  */
 
 $events->afterBuild(GenerateSitemap::class);
+$events->afterBuild(HighlightCodeSyntax::class);
 
