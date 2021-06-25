@@ -9,7 +9,7 @@
         "watch": "npm run development -- --watch"
     },
     "devDependencies": {
-        "browser-sync": "^2.26.13",
+        "browser-sync": "^2.27.1",
         "browser-sync-webpack-plugin": "^2.0.1",
         "cross-env": "^7.0.3",
         "docsearch.js": "^2.6.2",
